@@ -1,5 +1,7 @@
 /* css */
 
+/* utility */
+
 *{
   margin: 0;
   padding: 0;
@@ -8,4 +10,47 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+}
+
+.d-flex{
+  display: flex;
+}
+
+/* header */
+
+header{
+  padding: 20px;
+  justify-content: space-between;
+  min-width: 1030px;
+}
+
+
+header .right-header ul,
+header .left-header ul{
+  list-style: none;
+  align-items: center;
+}
+
+header .right-header ul li a,
+header .left-header ul li a{
+  padding: 20px;
+  color: black;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+header .right-header ul li a:hover, 
+header .left-header ul li a:hover{
+  border-bottom: 1px solid black;
+  padding: 20px;
+}
+
+header .left-header ul li:last-child{
+  background-color: #0061ff;
+  padding: 3px;
+}
+
+header .left-header ul li:last-child a{
+  color: white;
+  font-weight: 400;
 }
