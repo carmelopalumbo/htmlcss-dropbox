@@ -39,6 +39,12 @@ header{
   padding: 20px;
   justify-content: space-between;
   min-width: 1030px;
+  height: 65px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background-color: white;
+  width: 100%;
 }
 
 header .right-header ul,
@@ -76,6 +82,7 @@ header .left-header ul li:last-child a{
 .jumbotron{
   background-color: #b4d0e7;
   min-width: 1300px;
+  margin-top: 65px;
 }
 .jumbotron .container .descr-jumbotron{
   position: relative;
@@ -114,4 +121,95 @@ header .left-header ul li:last-child a{
   font-size: 60px;
   padding-bottom: 80px;
   cursor: pointer;
+}
+
+/* main */
+
+/* scelta del piano */
+
+main h2{
+  padding-top: 150px;
+  padding-bottom: 60px;
+  font-size: 50px;
+}
+
+main span{
+  padding-right: 40px;
+}
+
+main .plan .box-plan .fa-ul.blue i, main .blue i{
+  color: #0061ff;
+}
+
+main{
+  height: 3000px; 
+  /* RIMUOVERE!! */
+}
+
+main .plan-container{
+  padding: 25px;
+}
+
+main .plan{
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .box-plan{
+  margin-top: 40px;
+  width: 30%;
+  min-width: 195px;
+  height: 1000px;
+  border: 1px solid lightgrey;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; */
+}
+
+main .plan .box-plan h5{
+  font-size: 15px;
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+  padding: 10px;
+  font-weight: 400;
+}
+
+main .plan .box-plan h3{
+  font-size: 25px;
+}
+
+main .plan .box-plan .price :first-child{
+  font-size: 14px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+main .plan .box-plan .price :last-child{
+  font-size: 15px;
+  color: grey;
+  padding-bottom: 30px;
+}
+
+main .plan .box-plan .plan-container ul li{
+  padding: 13px 0;
+}
+
+main .plan .box-plan .plan-container .btn{
+  display: block;
+  text-align: center;
+  margin: 25px auto;
+}
+
+main .box-plan hr{
+  width: 20%;
+  background-color: lightgrey;
+  height: 2px;
+  margin: 45px 0;
+}
+
+main .plan .box-plan .plan-container #punti-salienti{
+  font-weight: bold;
+  font-size: 16px;
+  padding: 15px 0;
 }
