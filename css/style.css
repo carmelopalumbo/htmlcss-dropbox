@@ -16,6 +16,12 @@ body{
   display: flex;
 }
 
+.container{
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+}
+
 /* header */
 
 header{
@@ -52,4 +58,28 @@ header .left-header ul li:last-child{
 header .left-header ul li:last-child a{
   color: white;
   font-weight: 400;
+}
+
+/* jumbotron */
+
+.jumbotron{
+  background-color: #b4d0e7;
+  height: 600px;
+}
+
+.jumbotron .container h1{
+  padding: 50px 0;
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.jumbotron .container .descr-jumbotron img{
+  height: 450px;
+  width: 70%;
+  object-fit: cover;
+}
+
+.jumbotron .container .descr-jumbotron p{
+  width: 30%;
+  line-height: 25px;
 }
