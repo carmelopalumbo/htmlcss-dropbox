@@ -157,7 +157,6 @@ main .plan{
 main .box-plan{
   margin-top: 40px;
   width: 30%;
-  min-width: 195px;
   height: 1000px;
   border: 1px solid lightgrey;
 }
