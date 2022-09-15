@@ -22,6 +22,17 @@ body{
   margin: 0 auto;
 }
 
+.btn{
+  background-color: #0061ff;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background-color: #68c9fa;
+}
+
 /* header */
 
 header{
@@ -64,22 +75,43 @@ header .left-header ul li:last-child a{
 
 .jumbotron{
   background-color: #b4d0e7;
-  height: 600px;
+  min-width: 1300px;
+}
+.jumbotron .container .descr-jumbotron{
+  position: relative;
+  top: 70px;
 }
 
 .jumbotron .container h1{
-  padding: 50px 0;
+  padding-top: 50px;
   font-size: 80px;
   font-weight: 900;
 }
 
 .jumbotron .container .descr-jumbotron img{
   height: 450px;
-  width: 70%;
+  position: relative;
+  right: 25px;
   object-fit: cover;
 }
 
 .jumbotron .container .descr-jumbotron p{
-  width: 30%;
   line-height: 25px;
+  padding-bottom: 25px;
+}
+
+.jumbotron .container .descr-jumbotron .text #annulla{
+  padding-top: 30px;
+  padding-bottom: 45px;
+  cursor: pointer;
+}
+
+.jumbotron .container .descr-jumbotron .text #annulla:hover{
+  text-decoration: underline;
+}
+
+.jumbotron .container .descr-jumbotron .text i{
+  font-size: 60px;
+  padding-bottom: 80px;
+  cursor: pointer;
 }
