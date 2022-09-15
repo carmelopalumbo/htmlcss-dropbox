@@ -152,7 +152,6 @@ main .plan-container{
 
 main .plan{
   justify-content: space-between;
-  align-items: center;
 }
 
 main .box-plan{
@@ -161,10 +160,6 @@ main .box-plan{
   min-width: 195px;
   height: 1000px;
   border: 1px solid lightgrey;
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center; */
 }
 
 main .plan .box-plan h5{
