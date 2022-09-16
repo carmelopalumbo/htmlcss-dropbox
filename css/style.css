@@ -340,7 +340,7 @@ main .box-sponsor .sponsor-right .sponsor1:active,
 main .box-sponsor .sponsor-right .sponsor2:active,
 main .box-sponsor .sponsor-right .sponsor3:active,
 main .box-sponsor .sponsor-right .sponsor4:active{
-  border: 10px solid rgba(255, 255, 255, 0.65);
+  box-shadow:0px 0px 0px 10px rgba(255, 255, 255, .55) inset;
 }
 
 main .box-sponsor .sponsor-left img,
@@ -351,7 +351,7 @@ main .box-sponsor .sponsor-right img{
   left: 0;
   right: 0;
   bottom: 0;
-  filter: invert(100%) sepia(95%) saturate(22%) hue-rotate(107deg) brightness(105%) contrast(100%);
+  filter: invert(1);
 }
 
 main .box-sponsor .sponsor-left .sponsor1{
@@ -455,4 +455,41 @@ main .banner a{
 
 #clearc{
   height: 90px;
+}
+
+/* FAQ */
+
+main .faq h3{
+  padding-top: 150px;
+  padding-bottom: 50px;
+  font-size: 40px;
+}
+main .boxqa{
+  position: relative;
+  padding: 30px 0;
+}
+
+main .boxqa:nth-child(2n){
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+
+main .boxqa .question{
+  font-weight: bold;
+  padding: 30px 0;
+  width: 100%;
+}
+
+main .boxqa i{
+  position: absolute;
+  left: 90%;
+}
+
+main .boxqa .answer{
+  display: none;
+}
+
+main .boxqa i:hover .answer{
+  display: block;
 }
