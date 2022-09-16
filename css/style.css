@@ -518,3 +518,15 @@ footer .column ul li:first-child > a{
   font-weight: bold;
   cursor: default;
 }
+
+footer .lang hr{
+  margin: 40px 0;
+  width: 10%;
+  color: lightgrey;
+}
+
+footer .lang p{
+  color: lightgrey;
+  font-size: 14px;
+  cursor: pointer;
+}
