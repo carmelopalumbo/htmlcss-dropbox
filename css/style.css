@@ -300,3 +300,8 @@ main .business .info-box h3{
 main .business .info-box p{
   line-height: 25px;
 }
+
+main .spot-sponsor h2{
+  width: 70%;
+  font-size: 45px;
+}
