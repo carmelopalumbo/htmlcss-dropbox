@@ -157,11 +157,11 @@ main .plan{
 main .box-plan{
   margin-top: 40px;
   width: 30%;
-  height: 1000px;
+  min-width: 200px;
   border: 1px solid lightgrey;
 }
 
-main .plan .box-plan h5{
+main .plan .box-plan h5, main .team h5{
   font-size: 15px;
   text-align: center;
   border-bottom: 1px solid lightgrey;
@@ -169,7 +169,8 @@ main .plan .box-plan h5{
   font-weight: 400;
 }
 
-main .plan .box-plan h3{
+main .plan .box-plan h3,
+main .team h3{
   font-size: 25px;
 }
 
@@ -206,4 +207,31 @@ main .plan .box-plan .plan-container #punti-salienti{
   font-weight: bold;
   font-size: 16px;
   padding: 15px 0;
+}
+
+main .team{
+  border: 1px solid lightgrey;
+  margin-top: 50px;
+  position: relative;
+}
+
+main .team h3{
+  margin-top: 20px;
+}
+
+main .team h3, main .team p{
+  text-align: left;
+  padding: 20px;
+}
+
+main .team p:first-of-type{
+  font-weight: bold;
+  position: relative;
+  bottom: 20px;
+}
+
+main .team .btn{
+  position: absolute;
+  top: 60px;
+  right: 10px;
 }
