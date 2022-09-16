@@ -490,6 +490,6 @@ main .boxqa .answer{
   display: none;
 }
 
-main .boxqa i:hover .answer{
+main .boxqa p:hover ~ .answer{
   display: block;
 }
