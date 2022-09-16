@@ -142,7 +142,7 @@ main .plan .box-plan .fa-ul.blue i, main .blue i{
 }
 
 main{
-  height: 4000px; 
+  height: 8000px; 
   /* RIMUOVERE!! */
 }
 
@@ -304,4 +304,67 @@ main .business .info-box p{
 main .spot-sponsor h2{
   width: 70%;
   font-size: 45px;
+}
+
+main .spot-sponsor{
+  padding-bottom: 100px;
+}
+
+main .box-sponsor .sponsor-left{
+  width: 33%;
+  flex-wrap: wrap;
+}
+
+main .box-sponsor .sponsor-left .sponsor1,
+main .box-sponsor .sponsor-left .sponsor2,
+main .box-sponsor .sponsor-left .sponsor3,
+main .box-sponsor .sponsor-left .sponsor4 {
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
+
+main .box-sponsor img{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: invert(100%) sepia(95%) saturate(22%) hue-rotate(107deg) brightness(105%) contrast(100%);
+}
+
+
+main .box-sponsor .sponsor-left .sponsor1{
+  background-color: #a2d39b;
+}
+
+main .box-sponsor .sponsor-left .sponsor2{
+  background-color: #61082b;
+}
+
+main .box-sponsor .sponsor-left .sponsor3{
+  background-color: #0093ce;
+}
+
+main .box-sponsor .sponsor-left .sponsor4{
+  background-color: #ff1c1c;
+}
+
+/* sponsor height */
+
+#arizona{
+  height: 100px;
+}
+
+#designit{
+  height: 50px;
+}
+
+#florida{
+  height: 40px;
+}
+
+#topps{
+  height: 70px;
 }
