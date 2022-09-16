@@ -142,7 +142,7 @@ main .plan .box-plan .fa-ul.blue i, main .blue i{
 }
 
 main{
-  height: 3000px; 
+  height: 4000px; 
   /* RIMUOVERE!! */
 }
 
@@ -240,7 +240,6 @@ main .team .btn{
 
 main .partner{
   margin-top: 100px;
-  display: flex; 
 }
 
 main .partner .img img{
@@ -267,4 +266,37 @@ main .partner .text .btn-partner{
   color: black;
   padding: 10px 13px;
 
+}
+
+/* dropbox-business */
+
+main .business{
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+ 
+main .business .info-box{
+  width: calc(100% / 3);
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+main .business h2{
+  font-size: 40px;
+  padding-top: 150px;
+  padding-bottom: 80px;
+}
+
+main .business .info-box img{
+  height: 250px;
+  object-fit: cover;
+}
+
+main .business .info-box h3{
+  font-size: 25px;
+  padding: 20px 0;
+}
+
+main .business .info-box p{
+  line-height: 25px;
 }
