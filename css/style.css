@@ -391,6 +391,27 @@ main .box-sponsor .sponsor-middle p{
   padding-bottom: 35px;
 }
 
+main .banner{
+  background-color: #b4d0e7;
+  color: #610834;
+  position: relative;
+}
+
+main .banner h2{
+  width: 30%;
+  font-size: 50px;
+  margin: 40px auto;
+}
+
+main .banner a{
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  text-decoration: none;
+  padding: 10px 35px;
+  background-color: white;
+  color: black;
+}
 
 /* sponsor height */
 
