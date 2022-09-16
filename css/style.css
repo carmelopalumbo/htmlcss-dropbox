@@ -332,6 +332,16 @@ main .box-sponsor .sponsor-right .sponsor4 {
   padding: 150px;
 }
 
+main .box-sponsor .sponsor-left .sponsor1:active,
+main .box-sponsor .sponsor-left .sponsor2:active,
+main .box-sponsor .sponsor-left .sponsor3:active,
+main .box-sponsor .sponsor-left .sponsor4:active,
+main .box-sponsor .sponsor-right .sponsor1:active,
+main .box-sponsor .sponsor-right .sponsor2:active,
+main .box-sponsor .sponsor-right .sponsor3:active,
+main .box-sponsor .sponsor-right .sponsor4:active{
+  border: 10px solid rgba(255, 255, 255, 0.65);
+}
 
 main .box-sponsor .sponsor-left img,
 main .box-sponsor .sponsor-right img{
