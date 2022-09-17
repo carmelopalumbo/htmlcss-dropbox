@@ -488,6 +488,9 @@ main .boxqa i{
 main .boxqa .answer{
   display: none;
 }
+main .boxqa p:hover i{
+  transform: scale(-1);
+}
 
 main .boxqa p:hover ~ .answer{
   display: block;
