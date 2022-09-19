@@ -316,7 +316,7 @@ main .spot-sponsor{
 
 main .box-sponsor .sponsor-left,
 main .box-sponsor .sponsor-right{
-  width: 33%;
+  /* width: 33%; */
   flex-wrap: wrap;
   justify-content: center;
   min-width: 600px;
