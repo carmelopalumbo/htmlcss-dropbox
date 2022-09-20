@@ -444,7 +444,6 @@ main .boxqa{
 main .boxqa:nth-child(2n){
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  position: relative;
 }
 
 main .boxqa .question{
@@ -461,6 +460,7 @@ main .boxqa i{
 main .boxqa .answer{
   display: none;
 }
+
 main .boxqa p:hover i{
   transform: scale(-1);
 }
