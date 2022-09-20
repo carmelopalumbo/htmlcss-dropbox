@@ -316,7 +316,8 @@ main .box-sponsor .sponsor-left,
 main .box-sponsor .sponsor-right{
   flex-wrap: wrap;
   justify-content: center;
-  min-width: 600px;
+  width: 100%;
+  min-width: 300px;
 }
 
 
@@ -353,7 +354,7 @@ main .box-sponsor .sponsor-right img{
   right: 0;
   bottom: 0;
   filter: invert(1);
-  width: 150px;
+  width: 60%;
 }
 
 main .box-sponsor .sponsor-left .sponsor1{
@@ -392,7 +393,7 @@ main .box-sponsor .sponsor-middle{
   padding: 30px;
   background-color: #f5f5f5;
   overflow: auto;
-  max-height: 600px;
+  aspect-ratio: 2 /1;
 }
 
 main .box-sponsor .sponsor-middle hr{
