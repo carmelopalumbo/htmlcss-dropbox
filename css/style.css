@@ -316,7 +316,6 @@ main .spot-sponsor{
 
 main .box-sponsor .sponsor-left,
 main .box-sponsor .sponsor-right{
-  /* width: 33%; */
   flex-wrap: wrap;
   justify-content: center;
   min-width: 600px;
@@ -355,6 +354,7 @@ main .box-sponsor .sponsor-right img{
   right: 0;
   bottom: 0;
   filter: invert(1);
+  width: 150px;
 }
 
 main .box-sponsor .sponsor-left .sponsor1{
@@ -428,39 +428,6 @@ main .banner a{
   color: black;
 }
 
-/* sponsor height */
-
-#arizona{
-  height: 100px;
-}
-
-#designit{
-  height: 50px;
-}
-
-#florida{
-  height: 40px;
-}
-
-#topps{
-  height: 70px;
-}
-
-#wbr{
-  height: 60px;
-}
-
-#hearts{
-  height: 20px;
-}
-
-#lovelyp{
-  height: 70px;
-}
-
-#clearc{
-  height: 90px;
-}
 
 /* FAQ */
 
