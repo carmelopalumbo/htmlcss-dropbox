@@ -281,8 +281,6 @@ main .business{
  
 main .business .info-box{
   width: calc(100% / 3);
-  padding-right: 40px;
-  padding-bottom: 40px;
 }
 
 main .business h2{
@@ -331,7 +329,8 @@ main .box-sponsor .sponsor-right .sponsor2,
 main .box-sponsor .sponsor-right .sponsor3,
 main .box-sponsor .sponsor-right .sponsor4 {
   position: relative;
-  padding: 150px;
+  width: 50%;
+  aspect-ratio: 1 /1;
 }
 
 main .box-sponsor .sponsor-left .sponsor1:active,
